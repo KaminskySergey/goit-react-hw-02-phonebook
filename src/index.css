@@ -7,6 +7,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 20px;
+  background: linear-gradient(#000eff, #aecb19) fixed;
+}
+
+div{
+  display: flex;
+  justify-content: center;
+  
 }
 
 code {
