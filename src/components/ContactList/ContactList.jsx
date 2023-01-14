@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 import {ContactItem, ContactText, ContactButton} from './ContactList.styled'
 import Box from 'components/Box/Box'
 
@@ -19,3 +21,8 @@ export const ContactList = ({itemName,onClickDelete}) => {
         </>
     )
 }
+
+ContactList.propTypes = {
+    itemName: PropTypes.arrayOf(PropTypes.object.isRequired),
+    onClickDelete: PropTypes.func.isRequired,
+    }
